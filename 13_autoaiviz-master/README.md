@@ -4,7 +4,7 @@
 TBD
 
 ## Milestones
-- [ ] 06/01/20: complete assigned training
+- [x] 06/01/20: complete assigned training
 
 - [x] 06/01/20: related work phase I - delivery of relevant literature
 
