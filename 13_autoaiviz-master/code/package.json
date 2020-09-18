@@ -1,0 +1,59 @@
+{
+  "name": "vpe-ui",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Karl I. Weidele, Abhishek Gupta",
+    "email": "daniel.karl@ibm.com"
+  },
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "3.4.1",
+    "typescript": "^3.8.3",
+    "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "@carbon/colors": "^10.11.0",
+    "@carbon/elements": "^10.11.2",
+    "@types/carbon-components-react": "^7.10.5",
+    "@types/carbon__icons-react": "^10.11.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "bootstrap": "^4.4.1",
+    "carbon-components": "^10.14.0",
+    "carbon-components-react": "^7.11.3",
+    "carbon-icons": "^7.0.7",
+    "d3": "^5.16.0",
+    "hdsp2": "0.0.29",
+    "node-sass": "^4.14.1",
+    "papaparse": "^5.2.0",
+    "pip": "0.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.w13.1",
+    "react-router-dom": "^5.1.2",
+    "react-split-pane": "^2.0.3",
+    "@ibmresearch/autoaiviz": "1.0.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

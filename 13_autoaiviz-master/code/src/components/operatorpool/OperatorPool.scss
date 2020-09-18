@@ -1,0 +1,34 @@
+@import "@carbon/colors/scss/colors";
+
+.operator-pool-header {
+    background: $carbon--gray-70;
+    color: #ffffff;
+    padding: 16px;
+}
+
+.operator-pool-body {
+    background-color: $carbon--gray-10;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    width: 100%;
+    height: calc(100% - 106px);
+}
+
+.bx--toolbar {
+    padding: 10px;
+    margin: 0px;
+    background-color: $carbon--gray-10;
+}
+
+.operator-filter {
+    background-color: $carbon--gray-10;
+}
+
+.bx--toolbar .bx--toolbar-search--active {
+    width: 242px !important;
+}
+
+.stage-filter-column {
+    width: 200px;
+    display: block;
+}

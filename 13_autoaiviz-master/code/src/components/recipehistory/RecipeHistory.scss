@@ -1,0 +1,12 @@
+@import "@carbon/colors/scss/colors";
+
+.recipe-history-header {
+    background: $carbon--gray-70;
+    color: #ffffff;
+    padding: 16px;
+}
+
+.recipe-history-body {
+    height: calc(100% - 54px);
+}
+

@@ -1,0 +1,29 @@
+@import "@carbon/colors/scss/colors";
+
+.pipeline-results-header {
+    background: $carbon--gray-70;
+    color: #ffffff;
+    padding: 16px;
+}
+
+.pipeline-results-body {
+    background: $carbon--gray-10;
+    height: calc(100% - 54px);
+}
+
+.imagePipViewer {
+    background: #f4f4f4;
+    padding-left: 12rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.bx--grid {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.bx--dropdown .bx--list-box__field {
+    display: inline-flex;
+    width: 100px;
+}

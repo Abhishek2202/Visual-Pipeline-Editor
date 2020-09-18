@@ -1,0 +1,68 @@
+@import "../node_modules/@carbon/elements/scss/elements";
+
+html, body, div#root {
+    height: 100%;
+}
+
+.content-pane {
+    padding-top: 48px;
+}
+
+.scrollable {
+    overflow: scroll;
+    height: 100%
+}
+
+$feature-flags: (
+  grid-columns-12: true,
+);
+
+.bx--header {
+    z-index: 10000 !important;
+}
+
+.bx--side-nav {
+    position: relative !important;
+    background: none !important;
+    z-index: -100;
+}
+
+.featureengineering, .bx--checkbox-label.featureengineering::before {
+    fill: $carbon--blue-50;
+}
+
+.bx--checkbox-label.featureengineering::before {
+    background-color: $carbon--blue-50 !important;
+}
+
+.modelling {
+    fill: #f1c21b;
+}
+
+.bx--checkbox-label.modelling::before {
+    background-color: #f1c21b !important;
+}
+
+.transformation {
+    fill: $carbon--green-40;
+}
+
+.bx--checkbox-label.transformation::before {
+    background-color: $carbon--green-40 !important;
+}
+
+.preprocessing {
+    fill: $carbon--red-40;
+}
+
+.bx--checkbox-label.preprocessing::before {
+    background-color: $carbon--red-40 !important;
+}
+
+.optimization {
+    fill: $carbon--red-60;
+}
+
+.bx--checkbox-label.optimization::before {
+    background-color: $carbon--red-60 !important;
+}
