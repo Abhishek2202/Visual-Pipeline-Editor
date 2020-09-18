@@ -18,15 +18,7 @@ TBD
 
 - [x] 08/03/20: poster session
 
-- [ ] 08/07/20: last day of externship - delivery of application - **EXTENDED to Aug 10**
-
-- [ ] 08/15/20: user study - **EXTENDED to Aug 17**
-
-- [ ] 09/01/20: final paper draft - delivery of paper draft
-
-- [ ] 09/10/20: abstract deadline
-
-- [ ] 09/17/20: submission deadline
+- [x] 08/07/20: last day of externship - delivery of application - **EXTENDED to Aug 10**
 
 - weekly sync calls with various researchers to obtain more feedback
 
